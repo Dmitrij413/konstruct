@@ -51,7 +51,7 @@ body {
 }
 .nav {
     display: flex;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     justify-content: space-between;
     align-items: center;
 }
@@ -89,6 +89,11 @@ body {
     font-weight: 700;
     letter-spacing: 1.844px;
 }
+.nav-line{
+    height: 1px;
+    color: #E6E6E6;
+    margin: 0;
+}
 .story {
     padding: 50px 0;
 }
@@ -100,7 +105,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.story_title_2 {
+.title_2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -108,7 +113,7 @@ body {
     letter-spacing: 2px;
     padding: 30px 0;
 }
-.story_title_2:after {
+.title_2:after {
     content: '';
     width: 50px;
     height: 2px;
