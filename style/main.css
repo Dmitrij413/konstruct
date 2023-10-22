@@ -10,7 +10,7 @@ body {
     padding: 0 50px;
 }
 .header__content {
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,14 +142,14 @@ body {
     letter-spacing: 0.19px;
 }
 .story_item:nth-child(1) {
-    background-image: url(../img/plan.png);
+    background-image: url(../img/plan.webp);
     margin-left: 20px;
 }
 .story_item:nth-child(2) {
-    background-image: url(../img/manage.png)
+    background-image: url(../img/manage.webp)
 }
 .story_item:nth-child(3) {
-    background-image: url(../img/build.png);
+    background-image: url(../img/build.webp);
     margin-right: 0;
 }
 @media screen and (max-width: 1440px) {
