@@ -233,6 +233,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 .capabilites__bottom {
     display: flex;
@@ -263,19 +264,18 @@ body {
     line-height: 24px; /* 150% */
     letter-spacing: 0.427px;
 }
-.get {
-}
 .get__top__inner {
+    padding-top: 1px;
     background-image: url(../img/bg2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    align-content: center;
-    align-items: center;
     height: 500px;
 }
 .get__top {
     align-content: center;
+    align-items: center;
+    text-align: center;
 }
 .title_5 {
     margin: 120px auto -35px;
@@ -289,21 +289,72 @@ body {
     letter-spacing: 0.15px;
 }
 .get__top__btn {
-    display: block;
+    margin: 70px auto;
 }
 .get__bottom {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+.get__bottom__inner {
+    background-color: #171819;
+    height: 100px;
 }
 .title_6 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.846px;
+    margin: 0;
+}
+#email {
+    width: 250px;
+    height: 36px;
+    border: 1px solid #979797;
+    margin: 0;
+    margin-right: -4px;
+}
+.get__bottom form {
+    display: flex;
+    align-items: center;
 }
 .footer__top {
+    background: #141A20;
+    color: #FFF;
+    margin: 0;
+    padding: 1px;
+}
+.footer__top__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
 }
 .footer__lefft {
+    width: 250px;
+    align-content: flex-start;
+    margin-right: 70px;
 }
 .footer__text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 172.727% */
+    letter-spacing: 0.85px;
 }
 .footer__text_uppercase {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.846px;
+    text-transform: uppercase;
 }
-.logo_white {
+.logo_white_left{
+    text-align: left;
+    padding-top: 8px;
 }
 .footer__midle {
 }
@@ -322,4 +373,19 @@ body {
 .footer__socials {
 }
 .footer__bottom {
+    color: #FFF;
+    height: 60px;
+    background: #171819;
+    padding-top: 22px;
+}
+.footer__bottom p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.846px;
+}
+.footer__bottom__text {
+    margin: 0 auto;
+    text-align: center;
 }
